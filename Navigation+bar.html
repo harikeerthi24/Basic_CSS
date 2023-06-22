@@ -1,0 +1,46 @@
+<!-- Create a navigation bar. The navigation bar must contain 5 navigation links that are 
+    properly placed within the navigation bar using the CSS box model. The navigation items must 
+    change their text color on hover.For each navigation item use a different border style.On hovering 
+    the navigation links change the text color, increase the font size and make the text bold. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+        
+      nav {
+        background-color: cornflowerblue;
+        padding: 20px;
+      }
+
+      a {
+        color: #fff;
+        margin-right: 20px;
+        margin-left: 20px;
+      }
+
+      a:hover {
+        color: #000; text-transform: bold;font-weight: bold;font-size: 30px;
+      }
+      
+      .link-1{border: 2px groove #000;}
+      .link-2{border: 2px dotted #000;}
+      .link-3{border: 2px inset #000;}
+      .link-4{border: 2px double #000;}
+      .link-5{border: 2px dashed #000;}
+    </style>
+</head>
+<body>
+    <nav>
+        <a class="link-1" href="Home">Home    </a>
+        <a  class="link-2" href="About Us">About    </a>
+        <a  class="link-3" href="Contact">Contact   </a>
+        <a class="link-4" href="Blog">Blog    </a>
+        <a class="link-5" href="Login">Login   </a>
+    </nav>
+    
+</body>
+</html>

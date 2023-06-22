@@ -1,0 +1,27 @@
+<!--  Create a web page with a form where the input field has a 
+        yellow background color when it is focused on. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        input:focus{background-color: yellow;}
+    </style>
+</head>
+<body>
+    <form action="./signin" method="get">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required="">
+          </div> <br>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required="">
+          </div> <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
